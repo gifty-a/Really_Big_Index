@@ -1,4 +1,4 @@
-package main.java.classes_objects;
+package main.java.oracle.classes_objects;
 
 import java.util.Scanner;
 
@@ -38,7 +38,7 @@ public class CardApp {
 
     public static boolean isValidSuit(String suit) {
         for (int i = 0; i < Card.SUITS.length; i++) {
-            if (suit.toLowerCase().equals(Card.SUITS[i].toLowerCase())) {
+            if (suit.equalsIgnoreCase(Card.SUITS[i])) {
                 return true;
             }
         }

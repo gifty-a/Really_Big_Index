@@ -1,4 +1,4 @@
-package main.java.classes_objects;
+package main.java.oracle.classes_objects;
 
 public class NumberHolder {
     public int anInt;

@@ -1,6 +1,4 @@
-package main.java.classes_objects;
-
-import java.util.Locale;
+package main.java.oracle.classes_objects;
 
 public class Card {
     private int rank;
