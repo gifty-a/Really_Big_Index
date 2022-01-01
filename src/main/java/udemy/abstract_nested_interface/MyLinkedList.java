@@ -17,6 +17,7 @@ public class MyLinkedList implements NodeList{
             this.root = item;
             return true;
         }
+//        ListItem currentItem =
         return false;
     }
 
