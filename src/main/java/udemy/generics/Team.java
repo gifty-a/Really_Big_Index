@@ -98,6 +98,12 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
         return (gamesWon * 2) + gamesTied;
     }
 
+    public String getTeamDetails() {
+        return "Team Name : " + getTeamNm() + "\n" +
+                "Team Size : " + getNumOfPlayers() + "\n" +
+                "Ranking : " + ranking();
+    }
+
     @Override
     public int compareTo(Team<T> team) {
         if (this.ranking() > team.ranking()) return -1;
